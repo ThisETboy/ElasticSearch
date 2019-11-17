@@ -145,7 +145,7 @@ public class App_CreateDocument {
         Book book = new Book();
         book.setId(3);
         book.setBookname("疯人院");
-        book.setPrice(1280f);
+        book.setPrice(1280L);
         book.setPic("2.jpg");
         book.setBookdesc("好听");
         ObjectMapper mapper = new ObjectMapper();
